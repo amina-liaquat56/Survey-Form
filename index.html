@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TechStudies Survey Form</h1>
+    <form action="survey form">
+        <div class="form-control">
+            <label for="name" id="for-name">Name</label> 
+            <input type="text" id="text" placeholder="Enter Your Name">
+
+        </div>
+        <div class="form-control">
+            <label for="email" id="email">Email</label> 
+            <input type="text" id="text" placeholder="Enter Your Email">
+
+        </div>
+        <div class="form-control">
+            <label for="age" id="for-age">Age</label> 
+            <input type="text" id="text" placeholder="Enter Your Age">
+
+        </div>
+        <div class="form-control">
+            <label for="occupation" id="for-occupation">Which option best describe you?</label> 
+            <select name="options" id="options">
+                <option value="Student">Student</option>
+                <option value="Student">Teacher</option>
+                <option value="Student">Intern</option>
+                <option value="Student">Business Man</option>
+            </select>
+
+        </div>
+        <div class="form-control">
+            <label>Whould You recommend TechStudies to Your Freind?</label>
+            <label for="recommend-1">
+                <input type="checkbox" name="yes" id="yes">Yes
+            </label>
+            <label for="recommend-2">
+                <input type="checkbox" name="no" id="no">No
+            </label>
+            <label for="recommend-3">
+                  <input type="checkbox" name="maybe" id="maybe">Maybe
+            </label>
+        </div>
+        <div class="form-control">
+            <label>Language Frameworks Known
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp" >C
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp" >C++
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp" >Python
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp" >Javascript
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp" >React
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp" >Django
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp" >Spring
+            </label>
+        </div>
+        
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+       
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</body>
+</html>
